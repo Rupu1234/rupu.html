@@ -1,0 +1,40 @@
+ .logo{
+	 text-align:center;
+	 font-family:;
+	 font-size:35px;
+	 color:#F84242;
+ }
+ .menu {
+	 text-align:left;
+	 font-size:25px;
+	 background-repeat:repeat;
+ }
+ body{
+	background-image:url("./new.jpg");
+	background-size:cover;
+}
+.menu a{
+	 text-decoration:none;
+	 margin:20px;
+	 color:white;
+
+}
+.menu img{
+	float:left;
+	height:100;
+	width:100;
+	
+}
+  .rupu{
+	  float:right;
+	  background-color:rgba(92,95,95,0.8);
+	  color:#CAA83F;
+	  border-radius:8px;
+	  
+  }
+  .rupu h1{
+	  text-align:center;
+	  color:white;
+  }
+  
+  
