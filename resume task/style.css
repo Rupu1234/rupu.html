@@ -1,0 +1,333 @@
+body{
+	font-family:roboto;
+}
+.container{
+	margin:0 20px;
+}
+.header{
+	padding-top:20px;
+	text-align:center;
+}
+.header h1{
+	font-size:1.8rem;
+	margin-bottom:0.6rem;
+}
+.header p{
+	margin-bottom:0.6rem;
+}
+.dept{
+	color:skyblue;
+}
+.header a{
+	text-decoration:none;
+}
+@media(min-width:768px){
+	.container{
+		margin:0 30px;
+	}
+	.header h1{
+		font-size:2rem;
+	}
+	.header p{
+		font-size:1.1rem;
+	}
+	.header h1,p{
+		margin-bottom:0.8rem;
+	}
+}
+@media(min-width:1024px){
+	.container{
+		margin:0 70px;
+	}
+	.header h1{
+		font-size:2.5rem;
+	}
+	.header p{
+		font-size:1.4rem;
+	}
+}
+/**bio over**/
+.career{
+	margin:2rem 0;
+}
+.career h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:1rem;
+}
+.career p{
+	font-size:1rem;
+	line-height:1.5rem;
+}
+@media(min-width:768px){
+	.career h2{
+		font-size:1.3rem;
+	}
+	.career p{
+		font-size:1.2rem;
+	}
+}
+@media(min-width:768px){
+	.career h2{
+		font-size:1.5rem;
+	}
+	.career p{
+		font-size:1.3rem;
+	}
+}
+/**Objectiver over**/
+.academic{
+	margin:2rem 0;
+}
+.academic h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:1rem;
+}
+.college{
+	margin:1rem 0;
+} 
+.college h4{
+	font-size:1.2rem;
+	font-weight:800;
+	padding-bottom:0.8rem;
+}
+.college h4 span{
+	opacity:0.6;
+}
+.college p{
+	font-size:1rem;
+	line-height:1.5rem;
+}
+@media(min-width:768px){
+	.academic h2{
+		font-size:1.3rem;
+	}
+	.college h4{
+		font-size:1.3rem;
+	}
+	.college p{
+		font-size:1.2rem;
+	}
+}
+@media(min-width:1024px){
+	.academic h2{
+		font-size:1.5rem;
+	}
+	.college h4{
+		font-size:1.4rem;
+	}
+	.college p{
+		font-size:1.3rem;
+	}
+}
+/**Academic over**/
+.skill{
+	margin:1rem 0;
+}
+.skill h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:1rem;
+}
+.skilltable{
+	width:97%;
+}
+.skilltable,tr,td{
+	border:1px solid black;
+}
+.skilltable h1{
+	font-size:1.2rem;
+	font-weight:1200;
+	padding-left:0.5rem;
+}
+.skilltable p{
+	font-size:1.1rem;
+	padding:0.5rem 0.5rem;
+}
+.skilllist{
+	padding:0.5rem 0.5rem;
+}
+.skilllist li{
+	list-style-type:disc;
+	margin-left:2rem;
+	font-size:1.1rem;
+	
+}
+@media(min-width:768px){	
+	.skill h2{
+		font-size:1.3rm;
+		
+	}
+	.skilltable h4{
+		font-size:1.3rem;
+		
+	}
+	.skilltable p{
+		font-size:1.2rem;
+	}
+	.skilllist li{
+		font-size:1.2rem;
+	}
+}
+@media(min-width:1024px){
+	.skill h2{
+		font-size:1.5rm;
+		
+	}
+	.skilltable h4{
+		font-size:1.4rem;
+		
+	}
+	.skilltable p{
+		font-size:1.3rem;
+	}
+	.skilllist li{
+		font-size:1.3rem;
+	}
+}
+/**Skill over**/
+.techinical{
+	margin:1rem 0;
+}
+.techinical h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:1rem;
+
+}
+.techflex{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+.left{
+	padding:1rem 1rem;
+	width:50%;
+}
+.core{
+	margin-bottom:1rem;
+}
+.core h5{
+	font-size:1rem;
+	font-weight:700;
+	color:skyblue;
+	margin-bottom:0.5rem;
+}
+.core p{
+	font-weight:700;
+	font-size:0.9rem;
+}
+@media(min-width:768px){
+	.technical h2{
+	    font-size:1.3rem;
+	}
+	.core h5{
+		font-size:1.2rem;
+	}
+	.core p{
+		font-size:1.1rem;
+	}
+}
+@media(min-width:1024px){
+	.technical h2{
+	    font-size:1.5rem;
+	}
+	.core h5{
+		font-size:1.4rem;
+	}
+	.core p{
+		font-size:1.3rem;
+	}
+}
+/**Techinical over**/
+.project{
+	margin:1rem 0;
+}
+.project h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:1rem;
+}
+.projecttable1{
+	border:1px solid black;
+	width:97%;
+	margin:1rem 1rem;
+}
+.projecttable1 td{
+	padding:0.5rem 0.5rem;
+	line-height:1.3rem;
+}
+.projecttable1 h4{
+	font-size:1.2rem;
+	font-weight:700;
+}
+.projecttable1 p{
+	font-size:1.1rem;
+}
+.projecttable1 a{
+	font-size:0.5rem;
+}
+.reslist{
+	padding-left:2rem;
+}
+.reslist li{
+	list-style-type:disc;
+}
+@media(min-width:768px){
+	.project h2{
+		font-size:1.3rem;
+	}
+	.projecttable1 h4{
+		font-size:1.3rem;
+	}
+	
+}
+@media(min-width:1024px){
+	.project h2{
+		font-size:1.3rem;
+	}
+	.projecttable1 h4{
+		font-size:1.3rem;
+	}
+	
+}
+/**Project over**/
+.declaration{
+	margin:1rem 0;
+}
+.declaration h2{
+	font-size:1.2rem;
+	font-weight:700;
+	margin-bottom:0.9rem;
+}
+.declaration p{
+	font-size:1rem;
+	margin-bottom:0.9rem;
+}
+.declaration h5{
+	font-size:1.2rem;
+	font-weight:500;
+}
+@media(min-width:768px){
+	.declaration h2{
+		font-size:1.3rem;
+	}
+	.declaration p{
+		font-size:1.1rem;
+	}
+	.declaration h5{
+		font-size:1.3rem;
+	}
+}
+@media(min-width:1024px){
+	.declaration h2{
+		font-size:1.5rem;
+	}
+	.declaration p{
+		font-size:1.2rem;
+	}
+	.declaration h5{
+		font-size:1.4rem;
+	}
+}
