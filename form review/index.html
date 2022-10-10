@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Form_Practice</title>
+</head>
+<body>
+	<h1>The Form Element</h1>
+	<form action="/action_page.php">
+		<fieldset> <legend><h2>PRACTICE</h2></legend>
+		<table>
+			<tr>
+				<td><label for="fname">FIRST NAME</label></td>
+				<td>: <input type="text" id="fname" name="fname" placeholder="Enter First Name" maxlength="10" size="30"></td>
+			</tr>
+			<tr>
+				<td><label for="lname">LAST NAME</label></td>
+				<td>: <input type="text" id="lname" name="lname" placeholder="last Name" maxlength="10" size="30"></td>
+			</tr>
+			<tr>
+				<td><label for="checkbox">LANGUAGE- KNOWN</label></td>
+				<td>:
+					<input type="checkbox" name="lang1" value="Bike">
+					<label for="lang1"> HTML</label>
+					<input type="checkbox" name="lang2" value="Car">
+					<label for="lang2"> CSS</label>
+					<input type="checkbox" name="lang3" value="Boat" checked>
+					<label for="lang3"> JS</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="colors"> SELECT COLOR </label></td>
+				<td>: <input type="color" name="colors"></td>
+			</tr>
+			<tr>
+				<td><label for="datemax">DATE-min</label></td>
+				<td>: <input type="date" id="damax" min="2022-05-06"></td>
+			</tr>
+			<tr>
+				<td><label for="date">DATE-max</label></td>
+				<td>: <input type="date" id="datemin" max="1997-05-06"></td>
+			</tr>
+			<tr>
+				<td><label for="birthday-time">DATE-TIME</label></td>
+				<td>: <input type="datetime-local" id="birthday-time"></td>
+			</tr>
+			<tr>
+				<td><label for="email">EMAIL</label></td>
+				<td>: <input type="email" id="email" size="30" placeholder="rupu0812@gmail.com" required> </td>
+			</tr>
+			<tr>
+				<td><label for="file">CHOOSE FILE</label></td>
+				<td>: <input type="file" id="files" name="files" multiple></td>
+			</tr>
+			<tr>
+				<td><label for="">HIDDEN FILE</label></td>
+				<td>: <input type="hidden"></td>
+			</tr>
+			<tr>
+				<td><label for="image">SUBMIT BUTTON</label></td>
+				<td>: <input type="image" id="image" src="back.png" alt="Submit" width="30" height="30"></td>
+			</tr>
+			<tr>
+				<td><label for="submit">MONTH</label></td>
+				<td>: <input type="month" id="month"></td>
+			</tr>
+			<tr>
+				<td><label for="quantity">NUMBER</label></td>
+				<td>: <input type="number" id="quantity" name="quantity" min="1" max="5"></td>
+			</tr>
+			<tr>
+				<td><label for="pwd">PASSWORD</label></td>
+				<td>: <input type="password" id="pwd" name="pwd" maxlength="8"></td>
+			</tr>
+			<tr>
+				<td>RADIO</td>
+				<td>: 
+					<input type="radio" id="age1" name="age" value="30">
+					<label for="age1">0 - 30</label>
+					<input type="radio" id="age2" name="age" value="60">
+					<label for="age2">31 - 60</label>  
+					<input type="radio" id="age3" name="age" value="100">
+					<label for="age3">61 - 100</label>
+				</td>
+			</tr>
+			<tr>
+				<td><label for="search">SEARCH</label></td>
+				<td>: <input type="search"></td>
+			</tr>
+			<tr>
+				<td><label for="tel">CELL NO</label></td>
+				<td>: <input type="tel"></td>
+			</tr>
+			<tr>
+				<td><label for="text1">TEXT(Default)</label></td>
+				<td>: <input type="text" id="text1"></td>
+			</tr>
+			<tr>
+				<td><label for="time">TIME</label></td>
+				<td>: <input type="time" id="time"></td>
+			</tr>
+			<tr>
+				<td><label for="homepage">HOMEPAGE</label></td>
+				<td>: <input type="url" id="homepage" name="homepage" required></td>
+			</tr>
+			<tr>
+				<td><label for="week">SELECT WEEK</label></td>
+				<td>: <input type="week" id="week"></td>
+			</tr>
+		</table><br>
+		<input type="reset">
+		<input type="submit">
+	</form>	
+</body>
+</html>
