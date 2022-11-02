@@ -1,0 +1,53 @@
+@import url("b.css");
+h2{
+	color: blue;
+	font-size:1.5rem;
+}
+h3{
+	color: yellow;
+	font-size:1.5rem;
+}
+@font-face {
+    font-family: "OpenSans";
+    src: url("../fonts/OpenSans-Regular.eot");
+    src: url("../fonts/OpenSans-Regular.ttf") format("truetype");
+}
+.font-fac{
+    background: black;
+	font-family: "OpenSans", Arial, sans-serif;
+    font-size: 1.2em;
+	color: white;
+}
+div h3{
+	background: gray !important;
+}
+.key {
+  font-size: 1.5rem;
+  width: 100%;
+  height: auto;
+  background: red;
+  position: relative;
+  animation: mymove 1s;
+}
+
+@keyframes mymove{
+  0%{
+	left: 0px;
+	
+	}
+  25%{
+	left: 200px;
+  	
+    }
+  75%{
+	left: 50px;
+	
+	}
+  100%{
+	left: 100px;
+	
+	}
+}
+h3{
+	background:red;
+}
